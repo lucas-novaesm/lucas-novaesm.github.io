@@ -26,3 +26,8 @@ p {
     font-weight: bold;
 }
 
+#photo-profile {
+    display: block;
+    border-radius: 20px;
+    margin: auto; 
+}
