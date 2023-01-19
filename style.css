@@ -7,6 +7,12 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
+#descricao {
+    position: absolute;
+    top: 50px;
+    right: 10%;
+}
+
 .subtitle {
     text-align: center;
     background-color: green;
@@ -28,19 +34,18 @@ p {
 }
 
 #photo-profile {
-    position: relative;
-    border-radius: 40%; 
+    float: left;
+    height: 210px;
+    width: 220px;
     padding: 5px;
     background-color: #4CAF50;
-    bottom: px;
-    width: 260px;
+    border-radius: 50%;
 
 }
 
-.about-me {
-    width: 50%;
-    position: absolute;
-    margin-left: 280px;  
+.image-container {
+    height: 220px;
+    position: relative;
 }
 
 li:hover {
