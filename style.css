@@ -1,11 +1,17 @@
 body {
-    background-color: rgb(138, 241, 138);
+    background-color: rgb(56, 56, 56);
    
+}
+
+main {
+    width: 100%;
+    min-width: 70%;
+    margin: 0 auto;
 }
 
 header {
     text-align: center;
-    background-color: rgb(2, 54, 2);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 30px;
     border-radius: 20px;
@@ -19,8 +25,7 @@ header {
 }
 
 #photo {
-    border-radius: 50%;
-    border: 3px solid rgb(2, 54, 2);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 #descricao {
@@ -29,7 +34,7 @@ header {
     display: inline-block;
     position: absolute;
     left: 400px;
-    background-color: rgb(2, 54, 2);
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     color: white;
     padding: 30px;
@@ -43,14 +48,14 @@ margin-top: 300px;
 }
 
 .subtitle {
-    background-color: rgb(2, 54, 2);
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     border-radius: 20px;
 }
 
 .button {
-    background-color: rgb(2, 54, 2);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
@@ -72,6 +77,10 @@ ul {
 }
 
 li:hover {
-    background-color: rgb(19, 192, 19);
+    background-color: rgb(253, 69, 69);
     border-radius: 20px;
+}
+
+#caracteristicas ul li {
+    color: white;
 }
